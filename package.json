@@ -6,12 +6,14 @@
   "bin": {
     "gitwatch": "./bin/index.js"
   },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kartik Labhshetwar",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.3.0",
     "yargs": "^17.7.2"
   }
 }
